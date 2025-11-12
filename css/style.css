@@ -22,7 +22,7 @@
   position: absolute;
 }
 .titu4{
-
+margin-top: 10px;
 color: #333232;
   
   top: 80px;
@@ -133,4 +133,5 @@ border: #26eb7fbb solid;
 footer {
   background: linear-gradient(to left, #d4f094, #87fcd5a6, #6df3b0);
 }
+
 
