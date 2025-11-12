@@ -104,8 +104,9 @@ body {
   font-optical-sizing: auto!important;
   font-weight: weight!important;
   font-style: normal!important;
-  
-
+}
+.bodyy{
+background-color: #dbd5d5;
 
 }
 
@@ -115,7 +116,7 @@ margin-left: 40px;
     margin-top: 30px;
 
 border: #26eb7fbb solid;
-background-color: #adda8c;
+background-color: #ffffff;
 
 }
 .titu, .titu2 {
