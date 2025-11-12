@@ -124,7 +124,8 @@ background-color: #ffffff;
 
 }
 .marco:hover {
-  box-shadow: 0px -10px 20px rgba(0, 0, 0, 0.2);
+   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
 .titu, .titu2 {
   text-align: left;
