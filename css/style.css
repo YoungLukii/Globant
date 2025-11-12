@@ -98,6 +98,7 @@ color: rgb(83, 85, 85);
 body {
   margin: 0;
   padding: 0;
+  background-color: #f1eded;
   
   
   font-family: "Inter", sans-serif!important;
@@ -106,7 +107,7 @@ body {
   font-style: normal!important;
 }
 .bodyy{
-background-color: #f1e9e9;
+background-color: #f1eded;
 
 }
 
