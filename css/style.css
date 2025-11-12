@@ -131,6 +131,7 @@ border: #26eb7fbb solid;
 }
 
 footer {
+  font: bold;
   background: linear-gradient(to left, #d4f094, #87fcd5a6, #6df3b0);
 }
 
