@@ -206,3 +206,7 @@ text-decoration: underline;
 .col-img {
     align-self: flex-start;
 }
+
+li a{
+  padding: 0.5rem;;
+}
