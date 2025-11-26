@@ -178,7 +178,7 @@ text-decoration: underline;
 
 .sticky-img {
     position: fixed;
-    right: 50px;
+    right: 115px;
     top: 50%;
     transform: translateY(-50%);
     max-width: 600px;
