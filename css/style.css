@@ -169,10 +169,40 @@ text-decoration: underline;
 
 .row {
     display: flex !important;
-    flex-wrap: nowrap !important;
     align-items: flex-start !important;
 }
 
 .imagen1 {
     top: 100px; /* Ajustá el valor según tu header */
+}
+
+.sticky-img {
+    position: fixed;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 600px;
+    width: auto;
+    max-height: 80vh;
+    object-fit: contain;
+    z-index: 1000;
+}
+
+/* Ocultar la imagen fija en pantallas pequeñas para evitar solapamientos */
+@media (max-width: 700px) {
+  .sticky-img {
+    display: none;
+    position: static;
+    transform: none;
+  }
+}
+
+
+/* IMPORTANTE para evitar que la imagen baje */
+.row {
+    align-items: flex-start !important;
+}
+
+.col-img {
+    align-self: flex-start;
 }
