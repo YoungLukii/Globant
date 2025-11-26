@@ -174,8 +174,5 @@ text-decoration: underline;
 }
 
 .imagen1 {
-    position: sticky;
     top: 100px; /* Ajustá el valor según tu header */
-    max-width: 350px;
-    height: auto;
 }
