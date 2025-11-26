@@ -167,11 +167,15 @@ text-decoration: underline;
   margin-left: 40px;
 }
 
-.imagen1,
-img.sticky-top {
-  width: auto !important;
-  max-width: 100%;
-  display: inline-block !important;
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
+.row {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    align-items: flex-start !important;
+}
+
+.imagen1 {
+    position: sticky;
+    top: 100px; /* Ajustá el valor según tu header */
+    max-width: 350px;
+    height: auto;
 }
