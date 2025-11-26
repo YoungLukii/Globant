@@ -166,3 +166,12 @@ text-decoration: underline;
 .pregunta{
   margin-left: 40px;
 }
+
+.imagen1,
+img.sticky-top {
+  width: auto !important;
+  max-width: 100%;
+  display: inline-block !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
